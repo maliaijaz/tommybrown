@@ -1,0 +1,428 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Style overrides */
+
+.side-nav .divider {
+  margin: 0px;
+}
+
+div#index-banner {
+  min-height: 450px;
+}
+
+/*nav .brand-logo {
+  font-size: 1.9rem;
+  color: black;
+  font-weight: 700;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}*/
+
+i.material-icons {
+  color: black;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  font-size: 30px;
+}
+
+.lightgrey-navigation-color {
+  background-color: #F7FAFF;
+}
+
+.font-styles {
+  /*letter-spacing: px;*/
+  font-weight: 500;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: walbaum;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.music-text-styles {
+  padding-top: 15px;
+}
+
+.collection-font-styles {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.collection a.collection-item {
+  color: black;
+  background-color: lightgrey;
+}
+
+.paragraph-styles {
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Close up image */
+/*@media only screen and (max-width : 768px) {
+  .parallax-container .parallax img#header-image {
+    left: 38%;
+  }
+}*/
+
+
+@media screen and (min-width: 768px) {
+  .parallax-container .parallax img#header-image {
+    left: 68%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .parallax-container .parallax img#header-image {
+    left: 150%;
+  }
+}
+
+@font-face {
+    font-family: Azkia;
+    src: url('../fonts/azkia/azkia.otf');
+}
+
+@font-face {
+  font-family: Views;
+  src: url('../fonts/views.otf');
+}
+
+@font-face {
+  font-family: walbaumregular;
+  src: url('../fonts/walbaum/walbaumregular.ttf');
+}
+
+@font-face {
+  font-family: walbaumitalics;
+  src: url('../fonts/walbaum/walbaumitalics.ttf');
+}
+
+.mobile-navbar-menu-text {
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 10px;
+  position: relative;
+  top: 8px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: walbaumregular;
+  text-transform: uppercase;
+  color: black;
+}
+
+nav .brand-logo {
+  /*font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: walbaumitalics;
+  /*font-family: 'Bilbo Swash Caps', cursive;*/
+  /*font-weight: 600;*/
+  /*text-transform: uppercase;*/
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  /*a#logo-container {
+    position: relative;
+    bottom: 6px;
+  }*/
+}
+
+.side-nav li>a {
+  letter-spacing: 2px;
+  font-weight: 400;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: walbaumregular;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navbar-desktop-tab-styles {
+    /* letter-spacing: 2px; */
+    font-weight: 200;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: walbaumregular;
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+}
+
+html {
+  /*background-color: white;*/
+  background-color: rgba(255, 255, 255, 0.5);;
+  color: black;
+}
+
+i.material-icons {
+  color: black;
+}
+
+
+ /* FOOTER STYLES OVERRIDES */
+
+ .page-footer {
+  padding-top: 5px;
+  background-color: #F7FAFF !important;
+ }
+
+ .footer-paragraph-styles {
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 15px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: walbaumitalics;
+  text-transform: uppercase;
+  color: black;
+}
+
+.fa-styles {
+  color: black;
+  font-size: 21px;
+  padding: 10px;
+ }
+
+ a#logo-container {
+  text-transform: uppercase;
+  padding-left: 45px;
+  font-size: 2.5rem;
+ }
+
+ @media screen and (max-width: 767px) {
+  a#logo-container {
+    font-size: 32px;
+  }
+ }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+   a#logo-container {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  a#logo-container {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .submit-button-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+ul.right.hide-on-med-and-down {
+  padding-right: 25px;
+}
+
+.page-footer .footer-copyright {
+  background-color: #F7FAFF;
+}
+
+
+/* Contact Page Styles */
+
+div label {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 300;
+  /*text-transform: uppercase;*/
+}
+
+.input-field input[type=text]:focus + label {
+     color: black !important;
+     font-weight: bold !important;
+   }
+.input-field input[type=email]:focus + label {
+     color: black !important;
+     font-weight: bold !important;
+   }
+
+.input-field textarea:focus + label {
+     color: black !important;
+     font-weight: bold !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: black !important;
+     box-shadow: black !important;
+   }
+
+  /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: black !important;
+   }
+
+/* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid black !important;
+   box-shadow: 0 1px 0 0 black !important
+ }
+
+ .row .input-field textarea:focus {
+   border-bottom: 1px solid black !important;
+   box-shadow: 0 1px 0 0 black !important
+ }
+
+ input#name {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+ }
+
+ input#email {
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+ }
+
+ textarea#message {
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+ }
+
+ /* Submit button styles */
+button#submit-button-styles {
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+button#submit-button-styles:hover {
+  background-color: grey;
+ }
+
+button#submit-button-styles:active {
+  background-color: grey;
+ }
+
+.thank-you-message-styles {
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}  
+
+ /* End Contact Page Styles */
+
+ /* Social Media Styles */
+ .social-media-text {
+  display: inline-block;
+  color: black;
+ }
+
+
+ @media screen and (min-width: 768px) {
+   /* Header */
+ div#index-banner {
+  min-height: 600px;
+ }
+ }
+
+/* Music Section */
+i.white-color {
+  color: white;
+}
+
+.white-color {
+  color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.dark-grey {
+  background-color: darkgrey;
+}
+
+.extra-padding {
+      padding-bottom: 25px;
+}
+
+.copyright-padding {
+  padding-left: 20px;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  a#logo-container {
+    font-size: 23px;
+  }
+  .mobile-navbar-menu-text {
+    top: 5px;
+  }
+
+  .footer-paragraph-styles {
+    font-size: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .music-text-styles {
+    font-size: 30px;
+  }
+}
