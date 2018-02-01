@@ -426,3 +426,17 @@ i.white-color {
     font-size: 30px;
   }
 }
+
+/* Accolades */
+.lead-section-styles {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.album-titles {
+  font-size: 22px;
+}
+
+.dark-blue-grey {
+  background-color: #3C4B61;
+}
