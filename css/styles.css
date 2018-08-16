@@ -140,11 +140,6 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 }
 
 @font-face {
-  font-family: Views;
-  src: url('../fonts/views.otf');
-}
-
-@font-face {
   font-family: walbaumregular;
   src: url('../fonts/walbaum/walbaumregular.ttf');
 }
